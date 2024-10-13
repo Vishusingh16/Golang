@@ -17,7 +17,7 @@ func main() {
 	ans, error := divide(3, 0)
 	//the uderscore  is used as a blank idedntifier , it serves as write only function that allows you to discard values  returned by a function 	or ignore specific values 	 when you are not interested in them'
 	if error != nil {
-		fmt.Println("error handeling")
+		fmt.Println("error handelling")
 	}
 	fmt.Println(ans)
 
